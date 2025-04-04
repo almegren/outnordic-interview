@@ -95,4 +95,4 @@
   (->>
    (create-customer "Lars Monsen" "fjell@klatrer.no" +4781549300 "Fjellklatrerveien 2" "Sandefjord" 3216 "Norway")
    (add-dummy-orders) 
-   (map add-dummy-items)))
+   (mapv add-dummy-items)))
